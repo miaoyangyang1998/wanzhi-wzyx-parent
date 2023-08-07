@@ -1,4 +1,4 @@
-package org.wanzhi;
+package com.wanzhi;
 
 /**
  * @author :Yangyang Miao
