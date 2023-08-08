@@ -1,6 +1,7 @@
 package com.wanzhi.wzyx.common.exception;
 
 import com.wanzhi.wzyx.common.result.ResultCodeEnum;
+import lombok.Data;
 
 /**
  * 自定义异常处理类
@@ -14,6 +15,7 @@ import com.wanzhi.wzyx.common.result.ResultCodeEnum;
  * @date :2023-08-09 00:17:00
  */
 
+@Data
 public class WzyxException extends RuntimeException {
 
     /**

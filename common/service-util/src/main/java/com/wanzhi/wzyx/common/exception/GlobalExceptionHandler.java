@@ -23,4 +23,10 @@ public class GlobalExceptionHandler {
         e.printStackTrace();
         return Result.fail(null);
     }
+
+    @ExceptionHandler(WzyxException.class)
+    @ResponseBody
+    public <T> Result<T> error(WzyxException e) {
+        return Result.fail(null);
+    }
 }
